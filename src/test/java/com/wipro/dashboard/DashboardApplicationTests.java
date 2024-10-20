@@ -1,4 +1,4 @@
-package com.wipro.dashboard;
+package com.codea2z.dashboard;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

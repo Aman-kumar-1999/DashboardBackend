@@ -1,8 +1,8 @@
-package com.wipro.dashboard.service;
+package com.codea2z.dashboard.service;
 
 import java.util.List;
 
-import com.wipro.dashboard.entity.UpcomingRenewal;
+import com.codea2z.dashboard.entity.UpcomingRenewal;
 
 public interface UpcomingRenewalService {
 

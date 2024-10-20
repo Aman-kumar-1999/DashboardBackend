@@ -1,7 +1,7 @@
-package com.wipro.dashboard.config;
+package com.codea2z.dashboard.config;
 
 /**
- * @author Wipro InfoTech Maneesh Baid
+ * @author codea2z InfoTech Maneesh Baid
  * @version 0.1, 25/05/2011
  * @since 0.1
  */

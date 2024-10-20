@@ -1,4 +1,4 @@
-package com.wipro.dashboard.entity;
+package com.codea2z.dashboard.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 //import org.springframework.security.core.GrantedAuthority;

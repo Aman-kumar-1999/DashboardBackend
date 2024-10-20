@@ -1,6 +1,6 @@
-package com.wipro.dashboard.repo;
+package com.codea2z.dashboard.repo;
 
-import com.wipro.dashboard.entity.Role;
+import com.codea2z.dashboard.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

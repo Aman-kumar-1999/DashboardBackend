@@ -1,4 +1,4 @@
-package com.wipro.dashboard.service.impl;
+package com.codea2z.dashboard.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wipro.dashboard.entity.HealthDashboardInfra;
+import com.codea2z.dashboard.entity.HealthDashboardInfra;
 
-import com.wipro.dashboard.repo.HealthDashboardInfraRepository;
-import com.wipro.dashboard.service.HealthDashboardInfraService;
+import com.codea2z.dashboard.repo.HealthDashboardInfraRepository;
+import com.codea2z.dashboard.service.HealthDashboardInfraService;
 
 @Service
 public class HealthDashboardInfraServiceImpl  implements HealthDashboardInfraService{

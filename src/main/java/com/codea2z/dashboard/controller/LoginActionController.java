@@ -1,4 +1,4 @@
-package com.wipro.dashboard.controller;
+package com.codea2z.dashboard.controller;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.wipro.dashboard.config.CryptoUtils;
-import com.wipro.dashboard.entity.JwtRequest;
-import com.wipro.dashboard.entity.User;
-import com.wipro.dashboard.helper.UserNotFoundException;
-import com.wipro.dashboard.repo.UserRepository;
+import com.codea2z.dashboard.config.CryptoUtils;
+import com.codea2z.dashboard.entity.JwtRequest;
+import com.codea2z.dashboard.entity.User;
+import com.codea2z.dashboard.helper.UserNotFoundException;
+import com.codea2z.dashboard.repo.UserRepository;
 
 
 @RestController("/login")

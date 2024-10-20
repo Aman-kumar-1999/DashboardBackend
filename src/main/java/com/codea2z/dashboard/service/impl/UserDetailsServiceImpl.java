@@ -1,7 +1,7 @@
-package com.wipro.dashboard.service.impl;
+package com.codea2z.dashboard.service.impl;
 
-import com.wipro.dashboard.entity.User;
-import com.wipro.dashboard.repo.UserRepository;
+import com.codea2z.dashboard.entity.User;
+import com.codea2z.dashboard.repo.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;

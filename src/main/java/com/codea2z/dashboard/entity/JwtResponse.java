@@ -1,4 +1,4 @@
-package com.wipro.dashboard.entity;
+package com.codea2z.dashboard.entity;
 
 public class JwtResponse {
     String token;

@@ -1,4 +1,4 @@
-package com.wipro.dashboard.helper;
+package com.codea2z.dashboard.helper;
 
 public class UserNotFoundException extends Exception {
 

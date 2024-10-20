@@ -1,7 +1,7 @@
-package com.wipro.dashboard.service;
+package com.codea2z.dashboard.service;
 
-import com.wipro.dashboard.entity.User;
-//import com.wipro.dashboard.entity.UserRole;
+import com.codea2z.dashboard.entity.User;
+//import com.codea2z.dashboard.entity.UserRole;
 
 import java.util.Set;
 

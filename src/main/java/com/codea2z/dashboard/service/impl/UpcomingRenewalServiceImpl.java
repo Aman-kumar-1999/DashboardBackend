@@ -1,4 +1,4 @@
-package com.wipro.dashboard.service.impl;
+package com.codea2z.dashboard.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wipro.dashboard.entity.UpcomingRenewal;
+import com.codea2z.dashboard.entity.UpcomingRenewal;
 
-import com.wipro.dashboard.repo.UpcomingRenewalRepository;
-import com.wipro.dashboard.service.UpcomingRenewalService;
+import com.codea2z.dashboard.repo.UpcomingRenewalRepository;
+import com.codea2z.dashboard.service.UpcomingRenewalService;
 
 @Service
 public class UpcomingRenewalServiceImpl implements UpcomingRenewalService{

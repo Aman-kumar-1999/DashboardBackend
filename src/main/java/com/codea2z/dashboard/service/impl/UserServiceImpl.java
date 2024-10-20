@@ -1,13 +1,13 @@
-package com.wipro.dashboard.service.impl;
+package com.codea2z.dashboard.service.impl;
 
-import com.wipro.dashboard.helper.UserFoundException;
-import com.wipro.dashboard.helper.UserNotFoundException;
-import com.wipro.dashboard.entity.Role;
-import com.wipro.dashboard.entity.User;
-//import com.wipro.dashboard.entity.UserRole;
-import com.wipro.dashboard.repo.RoleRepository;
-import com.wipro.dashboard.repo.UserRepository;
-import com.wipro.dashboard.service.UserService;
+import com.codea2z.dashboard.helper.UserFoundException;
+import com.codea2z.dashboard.helper.UserNotFoundException;
+import com.codea2z.dashboard.entity.Role;
+import com.codea2z.dashboard.entity.User;
+//import com.codea2z.dashboard.entity.UserRole;
+import com.codea2z.dashboard.repo.RoleRepository;
+import com.codea2z.dashboard.repo.UserRepository;
+import com.codea2z.dashboard.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;

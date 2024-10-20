@@ -1,4 +1,4 @@
-package com.wipro.dashboard.config;
+package com.codea2z.dashboard.config;
 
 
 import org.springframework.context.annotation.Bean;

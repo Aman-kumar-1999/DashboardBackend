@@ -1,7 +1,7 @@
-package com.wipro.dashboard.controller;
+package com.codea2z.dashboard.controller;
 
-import com.wipro.dashboard.helper.UserFoundException;
-import com.wipro.dashboard.helper.UserNotFoundException;
+import com.codea2z.dashboard.helper.UserFoundException;
+import com.codea2z.dashboard.helper.UserNotFoundException;
 
 
 import java.util.HashSet;
@@ -24,43 +24,43 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.wipro.dashboard.config.CryptoUtils;
-import com.wipro.dashboard.entity.HealthDashboardAppOem;
-import com.wipro.dashboard.entity.HealthDashboardCots;
-import com.wipro.dashboard.entity.HealthDashboardInfra;
-import com.wipro.dashboard.entity.HealthDashboardPortal;
-import com.wipro.dashboard.entity.JwtRequest;
-import com.wipro.dashboard.entity.UpcomingRenewal;
-import com.wipro.dashboard.entity.Role;
-import com.wipro.dashboard.entity.User;
-//import com.wipro.dashboard.entity.UserRole;
-import com.wipro.dashboard.repo.HealthDashboardAppOemRepository;
-import com.wipro.dashboard.repo.HealthDashboardCotsRepository;
-import com.wipro.dashboard.repo.HealthDashboardInfraRepository;
-import com.wipro.dashboard.repo.HealthDashboardPortalRepository;
-import com.wipro.dashboard.repo.UpcomingRenewalRepository;
-import com.wipro.dashboard.repo.UserRepository;
+import com.codea2z.dashboard.config.CryptoUtils;
+import com.codea2z.dashboard.entity.HealthDashboardAppOem;
+import com.codea2z.dashboard.entity.HealthDashboardCots;
+import com.codea2z.dashboard.entity.HealthDashboardInfra;
+import com.codea2z.dashboard.entity.HealthDashboardPortal;
+import com.codea2z.dashboard.entity.JwtRequest;
+import com.codea2z.dashboard.entity.UpcomingRenewal;
+import com.codea2z.dashboard.entity.Role;
+import com.codea2z.dashboard.entity.User;
+//import com.codea2z.dashboard.entity.UserRole;
+import com.codea2z.dashboard.repo.HealthDashboardAppOemRepository;
+import com.codea2z.dashboard.repo.HealthDashboardCotsRepository;
+import com.codea2z.dashboard.repo.HealthDashboardInfraRepository;
+import com.codea2z.dashboard.repo.HealthDashboardPortalRepository;
+import com.codea2z.dashboard.repo.UpcomingRenewalRepository;
+import com.codea2z.dashboard.repo.UserRepository;
 
-import com.wipro.dashboard.service.HealthDashboardAppOemService;
-import com.wipro.dashboard.service.HealthDashboardCotsService;
-import com.wipro.dashboard.service.HealthDashboardInfraService;
-import com.wipro.dashboard.service.HealthDashboardPortalService;
-import com.wipro.dashboard.service.UpcomingRenewalService;
-import com.wipro.dashboard.service.UserService;
+import com.codea2z.dashboard.service.HealthDashboardAppOemService;
+import com.codea2z.dashboard.service.HealthDashboardCotsService;
+import com.codea2z.dashboard.service.HealthDashboardInfraService;
+import com.codea2z.dashboard.service.HealthDashboardPortalService;
+import com.codea2z.dashboard.service.UpcomingRenewalService;
+import com.codea2z.dashboard.service.UserService;
 
 
 
 //
-//import com.wipro.dashboard.entity.dashboardInfraIseApps;
-//import com.wipro.dashboard.entity.dashboardServerHealthStatus;
-//import com.wipro.dashboard.entity.Role;
-//import com.wipro.dashboard.entity.User;
-//import com.wipro.dashboard.entity.UserRole;
-//import com.wipro.dashboard.repo.UserRepository;
-//import com.wipro.dashboard.service.dashboardInfraAppsService;
-//import com.wipro.dashboard.service.dashboardInfraIseAppsService;
-//import com.wipro.dashboard.service.dashboardServerHealthStatusService;
-//import com.wipro.dashboard.service.UserService;
+//import com.codea2z.dashboard.entity.dashboardInfraIseApps;
+//import com.codea2z.dashboard.entity.dashboardServerHealthStatus;
+//import com.codea2z.dashboard.entity.Role;
+//import com.codea2z.dashboard.entity.User;
+//import com.codea2z.dashboard.entity.UserRole;
+//import com.codea2z.dashboard.repo.UserRepository;
+//import com.codea2z.dashboard.service.dashboardInfraAppsService;
+//import com.codea2z.dashboard.service.dashboardInfraIseAppsService;
+//import com.codea2z.dashboard.service.dashboardServerHealthStatusService;
+//import com.codea2z.dashboard.service.UserService;
 //import org.apache.coyote.Response;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.http.ResponseEntity;

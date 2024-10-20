@@ -1,4 +1,4 @@
-package com.wipro.dashboard.service.impl;
+package com.codea2z.dashboard.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wipro.dashboard.entity.HealthDashboardAppOem;
-import com.wipro.dashboard.repo.HealthDashboardAppOemRepository;
-import com.wipro.dashboard.service.HealthDashboardAppOemService;
+import com.codea2z.dashboard.entity.HealthDashboardAppOem;
+import com.codea2z.dashboard.repo.HealthDashboardAppOemRepository;
+import com.codea2z.dashboard.service.HealthDashboardAppOemService;
 
 @Service
 public class HealthDashboardAppOemServiceImpl implements HealthDashboardAppOemService {
